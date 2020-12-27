@@ -27,7 +27,7 @@ namespace HousingEstate
             persones.Add(habitant);
         }
 
-        public void HabitantsInfo()
+        public void GetInfoAboutAllHabitants()
         {
             for (int i = 0; i < persones.Count; i++)
             {
